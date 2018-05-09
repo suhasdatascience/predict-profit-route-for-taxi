@@ -24,7 +24,7 @@ import seaborn as sns # data visualization
 #print(check_output(["ls"]).decode("utf8"))
 
 
-df_trip = pd.read_csv('F:\\involvio_assignment\yellow_tripdata.csv', parse_dates=['tpep_pickup_datetime', 'tpep_dropoff_datetime'])
+df_trip = pd.read_csv('F:\\yellow_tripdata.csv', parse_dates=['tpep_pickup_datetime', 'tpep_dropoff_datetime'])
 print(df_trip.shape)
 df_trip.head()
 print(df_trip.vendor_id.unique())
